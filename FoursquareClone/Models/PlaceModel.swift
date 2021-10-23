@@ -6,3 +6,18 @@
 //
 
 import Foundation
+import UIKit
+
+class PlaceModel{
+    
+    static let sharedInstance = PlaceModel()
+    
+    var placeName = ""
+    var placeType = ""
+    var placeNote = ""
+    var placeLatitude = ""
+    var placeLongitude = ""
+    var placeImage = UIImage()
+    private init(){}
+    
+}
